@@ -1,74 +1,80 @@
-
 :root {
-    --font-size-base: 1rem;
-    --font-family-base: "Inter", sans-serif;
-    --color-white: #ffffff;
-    --color-dark: #383e40;
-    --color-gray-light: #ced4da;
-    --color-primary: #f24462;
-    --border-radius-base: 5px;
-  }
-  html {
-    font-size: var(--font-size-base);
-    font-family: var(--font-family-base);
-  }
-  body {
-    height: 100vh;
-    margin: 0;
-    background-color: #191c21;
-  }
-  input,
-  body,
-  button,
-  select {
-    font-size: inherit;
-    font-family: inherit;
-  }
-  .container {
-    width: 580px;
-  }
-  h1 {
-    color: var(--color-white);
-    font-weight: 400;
-    font-size: 2.5rem;
-  }
-  .form {
-    width: 100%;
-    background-color: var(--color-white);
-    color: var(--color-dark);
-    padding: 2.5rem;
-    border-radius: var(--border-radius-base);
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
-  }
-  .input-group {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1.5rem;
-  }
-  .input-group label {
-    margin-bottom: 8px;
-  }
-  .input-group input::placeholder {
-    color: var(--color-gray-light);
-  }
-  .input-group input,
-  .input-group select {
-    padding: 10px;
-    color: var(--color-dark);
-    border-width: 1px;
-    border-style: solid;
-    border-color: var(--color-gray-light);
-    border-radius: var(--border-radius-base);
-  }
-  .button {
-    padding: 14px;
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-transform: uppercase;
-    border-width: 1px;
-    border-style: solid;
-    border-color: var(--color-primary);
-    border-radius: var(--border-radius-base);
-    font-size: 14px;
-  }
+  --font-size-base: 1rem;
+  --font-family-base: "Inter", sans-serif;
+  --color-white: #ffffff;
+  --color-dark: #383e40;
+  --color-gray-light: #ced4da;
+  --color-primary: #f24462;
+  --border-radius-base: 5px;
+}
+
+html {
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-base);
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #191c21;
+}
+
+input, body, button, select {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.container {
+  width: 580px;
+}
+
+h1 {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.form {
+  width: 100%;
+  background-color: var(--color-white);
+  color: var(--color-dark);
+  padding: 2.5rem;
+  border-radius: var(--border-radius-base);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  margin-bottom: 8px;
+}
+
+.input-group input::placeholder {
+  color: var(--color-gray-light);
+}
+
+.input-group input, .input-group select {
+  padding: 10px;
+  color: var(--color-dark);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-gray-light);
+  border-radius: var(--border-radius-base);
+}
+
+.button {
+  padding: 14px;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-transform: uppercase;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-primary);
+  border-radius: var(--border-radius-base);
+  font-size: 14px;
+}
