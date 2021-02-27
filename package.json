@@ -1,0 +1,23 @@
+{
+  "name": "cadsatro-de-usuario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Macximusselbach/cadastro-de-usuario.git"
+  },
+  "author": "Macximus Selbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Macximusselbach/cadastro-de-usuario/issues"
+  },
+  "homepage": "https://github.com/Macximusselbach/cadastro-de-usuario#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

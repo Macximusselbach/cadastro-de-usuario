@@ -1,43 +1,47 @@
+
 .d-flex {
   display: flex;
 }
-
 .flex-column {
   flex-direction: column;
 }
-
 .justify-content-center {
   justify-content: center;
 }
-
 .justify-content-between {
   justify-content: space-between;
 }
-
 .align-items-center {
   align-items: center;
 }
-
 .mr-4 {
   margin-right: 1rem;
 }
-
+.mt-6 {
+  margin-top: 2rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 .w-25 {
   width: 25%;
 }
-
 .w-50 {
   width: 50%;
 }
-
 .w-75 {
   width: 75%;
 }
-
 .w-100 {
   width: 100%;
 }
-
 .w-auto {
   width: auto;
+}
+.bg-dark {
+  background-color: #191c21;
+}
+.text-white {
+  color: #ffffff;
 }

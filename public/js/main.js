@@ -17,7 +17,18 @@ document.querySelector("#form").addEventListener("submit", (e) => {
     }
   };
 
-  console.log(JSON.stringify(user, null, 2));
+  const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(user)
+  };
+  
+  fetch("/api/users", options)
+    .then(() => {
+      window.location.assign("/users");
+    });  
 });
 
 function preencherEndereco(endereco) {
@@ -31,7 +42,7 @@ document.querySelector("#cep").addEventListener("blur", (e) => {
   console.log("cep", e.target.value);
   const cep = e.target.value.replace('-', '');
 
-  fetch(`http://viacep.com.br/ws/${cep}/json/`)
+  fetch("http://viacep.com.br/ws/${cep}/json/")
     .then(response => response.json())
     .then(preencherEndereco);
 });
